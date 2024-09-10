@@ -1,0 +1,24 @@
+body {
+	background-image:url("beach2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-color: grey;
+}
+	ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: darkslategray;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: darkslategray;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+h1 span { 
+    background-image: linear-gradient(to right, teal , rgb(24, 203, 24));
+    border-style: solid;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 40px; 
+}
+h2 span{
+    background-image: linear-gradient(to right, teal , rgb(24, 203, 24));
+    border-style: solid;
+}
+p1{
+    text-align: center;
+    font-size: 25px;
+}
+p1 span{
+    background-color: lightgreen;
+}
+p2{
+    text-align: center;
+    font-size: 25px;
+}
+p2 span{
+    background-color: lightgreen;
+}
+.button {
+    background-color: green
+    
+  }
+body{
+    text-align: center;
+    background-image: url("A_tornado_of_fish.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}

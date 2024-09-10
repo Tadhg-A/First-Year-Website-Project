@@ -1,0 +1,27 @@
+body{
+    background-image: url("lots_of_fish.webp");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: darkslategray;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
